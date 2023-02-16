@@ -36,4 +36,4 @@ while True:
     ans = input("Would you like to play again? [Y/N]\n").upper()
     if (ans != "Y"):
         break
-print("Goodbye!") 
+print("Goodbye!")
