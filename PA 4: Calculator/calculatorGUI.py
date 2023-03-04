@@ -1,8 +1,9 @@
 
-# extra credit
+# assignment: programming assignment 4
 # author: Nickolas Tran
-# date: 2/23/2023
+# date: 2/27/2023
 # create a GUI calculator using tkinter
+# extra credit
 
 from tkinter import *
 from calculator import calculate
@@ -55,6 +56,8 @@ def clickButton(entrybox, value):
         entrybox.insert(0, result)
     else:
         entrybox.insert("end", value)
+    print(value)
+
 
 # main program
 gui = Tk()              # create the main window
